@@ -1,0 +1,13 @@
+<HolojamConfig>
+
+  <!-- This is a sample config file for use with the Configuration component. -->
+  <!-- You can specify or omit any or all of these options. -->
+  <!-- Don't add any extra whitespace between tags! -->
+
+  <!-- IP address of the Holojam relay. -->
+  <RelayIP>0.0.0.0</RelayIP>
+
+  <!-- Unique identification index -->
+  <BuildIndex>0</BuildIndex>
+
+</HolojamConfig>

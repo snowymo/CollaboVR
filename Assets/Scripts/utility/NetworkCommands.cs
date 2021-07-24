@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum CommandToServer {
+    RESOLUTION_REQUEST ,
+    STYLUS_RESET ,
+    SKETCHPAGE_CREATE ,
+    AVATAR_SYNC ,
+    SKETCHPAGE_SET ,
+    INIT_COMBINE ,
+    SELECT_CTOBJECT,
+    DESELECT_CTOBJECT,
+    AVATAR_LEAVE,
+    MOVE_FW_BW_CTOBJECT,
+    UPDATE_STYLUS_Z,
+    AVATAR_LEAVE_REMOVE_ID
+}
+
+public enum CommandFromServer {
+    RESOLUTION_REQUEST,
+    STYLUS_RESET,
+    SKETCHPAGE_CREATE,
+    AVATAR_SYNC,
+    SKETCHPAGE_SET ,
+    INIT_COMBINE ,
+    SELECT_CTOBJECT ,
+    DESELECT_CTOBJECT,
+    AVATAR_LEAVE,
+    UPDATE_STYLUS_Z,
+    SELECTION_RESET,
+    COUNT_DOWN
+}
